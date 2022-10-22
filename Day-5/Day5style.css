@@ -1,0 +1,18 @@
+div{
+	background: yellow; 
+	display:inline-block; 
+	padding-right:10px;
+	margin: 40px;
+	color:red;
+}
+a{
+   color: rgb(8, 105, 112);
+   text-decoration: none;
+}
+.header2{
+    background: pink;
+}
+#xx{
+    background-color: aqua;
+    font-size: x-large;
+}
