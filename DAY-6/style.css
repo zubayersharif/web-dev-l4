@@ -1,0 +1,45 @@
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: tomato;
+}
+.header{
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+
+}
+.logo{
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+.logo img{
+ height: 100px;
+ width: 100px;
+}
+.logo h3{
+    float: right;
+    font-size: 35px;
+  
+}
+.menu{
+    float: right;
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+.menu ul li a:hover{
+    background-color: yellow;
+
+}
