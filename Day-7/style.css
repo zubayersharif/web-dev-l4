@@ -1,0 +1,85 @@
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: rgb(167, 143, 235);
+}
+.header{
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+
+}
+.logo{
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+.logo img{
+ height: 100px;
+ width: 100px;
+}
+.logo h3{
+    float: right;
+    font-size: 35px;
+    padding-left: 200px;
+  
+}
+.menu{
+    float: right;
+    padding-right: 20px;
+    line-height: 80px;
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+.menu ul li a:hover{
+    background-color: yellow;
+    padding: 5px 0;
+    color: red;
+}
+/* Slider part start */
+.slider{
+    background: linear-gradient(rgba(235, 130, 152, .8), rgba(86, 223, 86, .6)), url(assets/images/img1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;    
+}
+.slider h1{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.slider p{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    text-align: center;
+}
+.slider a{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    text-align: center;
+    color: rgb(62, 20, 214);
+    text-decoration: none;
+    border: 5px solid red;
+    padding: 10px;
+    background-color: rgb(94, 218, 218);
+    border-radius: 20px;
+    border-left-color: black;
+    border-top-color: blue;
+    border-bottom-color: yellow;   
+}
+.slider a:hover{
+    color: palevioletred;
+}
